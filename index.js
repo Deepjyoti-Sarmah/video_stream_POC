@@ -77,7 +77,6 @@ app.post("/upload", upload.single('file'), function (req, res) {
       lessonId: lessonId
     })
   })
-
 })
 
 app.listen(8000, function() {
